@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Canto do Roxinho | Restaurante, Panificadora e Eventos</title>
+  <meta name="description" content="Canto do Roxinho em Manacapuru: restaurante, panificadora, eventos e reservas. Desde 1988." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Canto do Roxinho início">
+      <img src="imagem/logo-roxinho.jpeg" alt="Logo Canto do Roxinho" />
+      <span>Canto do Roxinho</span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    <nav class="nav">
+      <a href="#sobre">Sobre</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#restaurante">Restaurante</a>
+      <a href="#padaria">Padaria</a>
+      <a href="#eventos">Salão de Festa</a>
+      <a href="#galeria">Clientes</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero video">
+      <div class="hero-media">
+        <video src="imagem/logo-video.mp4" autoplay muted loop playsinline poster="imagem/logo-roxinho.jpeg"></video>
+      </div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Desde 1988 • Manacapuru</p>
+        <h1>Tradição amazônica com experiência de alto padrão.</h1>
+        <p>Restaurante, panificadora e eventos em um ambiente acolhedor, elegante e familiar na Av. Ribeiro Junior.</p>
+        <div class="actions">
+          <a class="btn primary" href="#eventos">Reservar salão</a>
+          <a class="btn ghost" href="tel:+559233614894">Ligar agora</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="lux-strip">
+      <span>Restaurante</span><span>Panificadora</span><span>Eventos</span><span>Café da manhã</span><span>Almoço</span>
+    </section>
+
+    <section id="sobre" class="section grid-2">
+      <div class="reveal">
+        <p class="eyebrow">Sobre nós</p>
+        <h2>O sabor que faz parte da história da cidade.</h2>
+        <p>O Canto do Roxinho é referência em Manacapuru para refeições, pães, cafés e celebrações. A proposta do site é unir a identidade roxa e dourada da marca a uma experiência digital luxuosa, fácil de navegar e pronta para reservas.</p>
+        <div class="stats">
+          <div><strong>1988</strong><small>tradição</small></div>
+          <div><strong>4,3/5</strong><small>Tripadvisor</small></div>
+          <div><strong>Nº 1</strong><small>em Manacapuru</small></div>
+        </div>
+      </div>
+      <article class="testimonial reveal">
+        <p class="quote">“Ambiente agradável, comida muito gostosa, um ótimo atendimento, qualidade de serviços. Super satisfeita... Super recomendo!”</p>
+        <span>Crítica/elogio destacado do Tripadvisor</span>
+      </article>
+    </section>
+
+    <section class="section recommendations">
+      <p class="eyebrow">Recomendações</p>
+      <h2>O que experimentar</h2>
+      <div class="cards">
+        <article><h3>Clássicos regionais</h3><p>Tambaqui assado, caldeirada e peixe frito preparados com sabor amazônico.</p></article>
+        <article><h3>Almoço self-service</h3><p>Opções variadas para rotina, família e encontros de negócios.</p></article>
+        <article><h3>Café e panificação</h3><p>Pães, cafés, brunch e pedidos especiais para começar bem o dia.</p></article>
+      </div>
+    </section>
+
+    <section id="cardapio" class="section menu-section">
+      <div class="section-head">
+        <div><p class="eyebrow">Cardápio</p><h2>Menu em destaque</h2></div>
+        <a class="btn ghost" href="https://cantodoroxinho.menudino.com.br/" target="_blank" rel="noopener">Ver cardápio online</a>
+      </div>
+      <div class="menu-grid">
+        <article><span>Almoço</span><h3>Buffet regional</h3><p>Saladas, guarnições e pratos quentes.</p></article>
+        <article><span>Peixes</span><h3>Tambaqui especial</h3><p>Uma das recomendações mais tradicionais da casa.</p></article>
+        <article><span>Padaria</span><h3>Pães e cafés</h3><p>Itens frescos para balcão e delivery.</p></article>
+        <article><span>Eventos</span><h3>Menu para festas</h3><p>Opções sob reserva para celebrações.</p></article>
+      </div>
+    </section>
+
+    <section id="restaurante" class="section feature right">
+      <div class="photo-card restaurant-photo"></div>
+      <div class="reveal"><p class="eyebrow">Restaurante</p><h2>Ambiente elegante para almoço e encontros.</h2><p>Área familiar, atendimento cordial e pratos com identidade regional. Ideal para quem busca comida de qualidade no centro de Manacapuru.</p></div>
+    </section>
+
+    <section id="padaria" class="section feature">
+      <div class="reveal"><p class="eyebrow">Panificadora</p><h2>Pães, café e vitrine de sabores.</h2><p>Espaço para destacar produtos diários, combos de café da manhã, brunch, encomendas e delivery.</p></div>
+      <div class="photo-card bakery-photo"></div>
+    </section>
+
+    <section id="eventos" class="section events">
+      <div class="section-head"><div><p class="eyebrow">Salão de festa</p><h2>Reserve para seu evento</h2></div></div>
+      <form class="form glass" name="reserva-evento">
+        <input type="text" name="nome" placeholder="Nome completo" required>
+        <input type="tel" name="telefone" placeholder="WhatsApp/telefone" required>
+        <input type="date" name="data" required>
+        <select name="tipo" required><option value="">Tipo de evento</option><option>Aniversário</option><option>Casamento</option><option>Corporativo</option><option>Confraternização</option></select>
+        <textarea name="mensagem" placeholder="Quantidade de convidados e observações"></textarea>
+        <button class="btn primary" type="submit">Solicitar reserva</button>
+      </form>
+    </section>
+
+    <section id="galeria" class="section gallery">
+      <p class="eyebrow">Fotos dos clientes</p>
+      <h2>Compartilhe seu momento no Roxinho</h2>
+      <div class="upload-box">
+        <input id="fotoCliente" type="file" accept="image/*" multiple>
+        <label for="fotoCliente">Enviar fotos do estabelecimento</label>
+        <small>Pré-visualização local. Para receber arquivos no servidor, conecte depois a um backend.</small>
+      </div>
+      <div id="preview" class="preview-grid"></div>
+    </section>
+
+    <section id="contato" class="section contact grid-2">
+      <div>
+        <p class="eyebrow">Contato</p>
+        <h2>Fale com a equipe</h2>
+        <p><strong>Endereço:</strong> Av. Ribeiro Junior, 770 - São Francisco, Manacapuru - AM, Brasil</p>
+        <p><strong>Telefone:</strong> <a href="tel:+559233614894">+55 92 3361-4894</a></p>
+        <div class="hours"><strong>Horários</strong><br>Dom 06:00–15:00<br>Seg, Ter, Qui, Sex e Sáb 06:00–19:00<br>Qua 09:00–19:00</div>
+      </div>
+      <form class="form" name="elogios-reclamacoes">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail">
+        <select name="categoria"><option>Elogio</option><option>Reclamação</option><option>Sugestão</option></select>
+        <textarea name="mensagem" placeholder="Escreva sua mensagem" required></textarea>
+        <button class="btn primary" type="submit">Enviar mensagem</button>
+      </form>
+    </section>
+
+    <section class="map">
+      <iframe title="Mapa Canto do Roxinho" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Av.%20Ribeiro%20Junior%2C%20770%20-%20S%C3%A3o%20Francisco%2C%20Manacapuru%20-%20AM%2C%20Brasil&output=embed"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <img src="imagem/logo-roxinho.jpeg" alt="Canto do Roxinho" />
+    <p>Canto do Roxinho • Restaurante, Panificadora e Eventos • Manacapuru</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
