@@ -998,3 +998,71 @@ p{
     grid-template-columns:1fr;
   }
 }
+/* ===== RESPONSIVO SOBRE.HTML ===== */
+
+@media (max-width: 900px){
+
+  .page-hero{
+    min-height: 70vh;
+    padding: 120px 6vw 70px;
+  }
+
+  .page-hero .hero-content{
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .page-hero .hero-content h1{
+    font-size: clamp(38px, 12vw, 54px);
+    line-height: 1;
+  }
+
+  .pagina-sobre{
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .pagina-sobre .stats{
+    grid-template-columns: 1fr;
+  }
+
+  .pagina-sobre .testimonial{
+    max-width: 100%;
+    padding: 18px;
+  }
+
+  .pagina-sobre .testimonial img,
+  .placeholder-fundador{
+    height: 260px;
+  }
+
+  .lux-strip{
+    gap: 18px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px){
+
+  .brand span{
+    font-size: 12px;
+  }
+
+  .page-hero .hero-content h1{
+    font-size: 36px;
+  }
+
+  .pagina-sobre .testimonial img,
+  .placeholder-fundador{
+    height: 220px;
+  }
+
+  .pagina-sobre h2{
+    font-size: 32px;
+  }
+
+  .pagina-sobre{
+    padding-inline: 18px;
+  }
+}
