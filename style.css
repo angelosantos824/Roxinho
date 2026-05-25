@@ -1066,3 +1066,79 @@ p{
     padding-inline: 18px;
   }
 }
+
+/* ==========================================
+   CORREÇÃO FORTE RESPONSIVO SOBRE.HTML
+========================================== */
+
+@media (max-width: 900px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .page-hero{
+    min-height: 65vh;
+    padding: 120px 22px 60px;
+  }
+
+  .page-hero .hero-content{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .page-hero .hero-content h1{
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .page-hero .hero-content p{
+    font-size: 15px;
+  }
+
+  .pagina-sobre{
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 32px;
+    padding: 60px 20px;
+  }
+
+  .pagina-sobre > div,
+  .pagina-sobre > article{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .pagina-sobre h2{
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
+  .pagina-sobre p{
+    font-size: 15px;
+  }
+
+  .pagina-sobre .stats{
+    grid-template-columns: 1fr;
+  }
+
+  .pagina-sobre .testimonial{
+    max-width: 100%;
+    padding: 18px;
+  }
+
+  .pagina-sobre .testimonial img,
+  .placeholder-fundador{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+  }
+
+  .lux-strip{
+    padding: 18px 12px;
+    gap: 14px;
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+}
