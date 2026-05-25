@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Salão de Festa | Canto do Roxinho</title>
+
+  <meta name="description"
+    content="Reserve o salão de festa do Canto do Roxinho em Manacapuru para aniversários, casamentos, confraternizações e eventos." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img src="imagem/logo-roxinho.jpeg" alt="Logo Canto do Roxinho" />
+      <span>Canto do Roxinho</span>
+    </a>
+
+    <button class="menu-toggle">☰</button>
+
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="cardapio.html">Cardápio</a>
+      <a href="salao.html">Salão de Festa</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-hero salao-hero">
+      <div class="overlay"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Eventos especiais</p>
+        <h1>Um salão elegante para celebrar momentos inesquecíveis.</h1>
+
+        <p>
+          Aniversários, casamentos, confraternizações, reuniões familiares
+          e eventos corporativos com estrutura, atendimento e sabor.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="#reserva">Solicitar reserva</a>
+          <a class="btn ghost" href="https://wa.me/559233614894" target="_blank">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="lux-strip">
+      <span>Aniversários</span>
+      <span>Casamentos</span>
+      <span>Confraternizações</span>
+      <span>Eventos</span>
+      <span>Reservas</span>
+    </section>
+
+    <section class="section grid-2 salao-intro">
+      <div class="reveal">
+        <p class="eyebrow">Salão de Festa</p>
+        <h2>Ambiente preparado para receber seus convidados.</h2>
+
+        <p>
+          O salão de festa do Canto do Roxinho foi pensado para quem deseja
+          comemorar com conforto, praticidade e uma experiência gastronômica
+          especial. Um espaço ideal para reunir família, amigos e convidados
+          em um ambiente acolhedor.
+        </p>
+
+        <div class="stats">
+          <div>
+            <strong>Eventos</strong>
+            <small>sob reserva</small>
+          </div>
+
+          <div>
+            <strong>Buffet</strong>
+            <small>opções especiais</small>
+          </div>
+
+          <div>
+            <strong>Equipe</strong>
+            <small>atendimento</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="photo-card salao-photo reveal"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Tipos de evento</p>
+          <h2>Perfeito para cada ocasião</h2>
+        </div>
+      </div>
+
+      <div class="cards salao-cards">
+        <article>
+          <h3>Aniversários</h3>
+          <p>
+            Espaço para celebrar com família e amigos, com opções de comida,
+            bebidas e atendimento personalizado.
+          </p>
+        </article>
+
+        <article>
+          <h3>Casamentos</h3>
+          <p>
+            Ambiente elegante para recepções íntimas, jantares especiais e
+            comemorações memoráveis.
+          </p>
+        </article>
+
+        <article>
+          <h3>Confraternizações</h3>
+          <p>
+            Ideal para empresas, equipes, igrejas, grupos e encontros de fim
+            de ano.
+          </p>
+        </article>
+
+        <article>
+          <h3>Eventos familiares</h3>
+          <p>
+            Batizados, encontros de família, homenagens, almoços especiais e
+            celebrações reservadas.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reserva" class="section events salao-reserva">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Reserva</p>
+          <h2>Solicite uma data para seu evento</h2>
+        </div>
+      </div>
+
+      <form class="form glass" name="reserva-salao">
+        <input type="text" name="nome" placeholder="Nome completo" required>
+        <input type="tel" name="telefone" placeholder="WhatsApp/telefone" required>
+        <input type="date" name="data" required>
+
+        <select name="tipo" required>
+          <option value="">Tipo de evento</option>
+          <option>Aniversário</option>
+          <option>Casamento</option>
+          <option>Confraternização</option>
+          <option>Evento corporativo</option>
+          <option>Evento familiar</option>
+          <option>Outro</option>
+        </select>
+
+        <input type="number" name="convidados" placeholder="Quantidade aproximada de convidados">
+
+        <textarea name="mensagem" placeholder="Conte mais sobre o evento, horário desejado e observações"></textarea>
+
+        <button class="btn primary" type="submit">Enviar solicitação</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+        <img src="imagem/logo-roxinho.jpeg" alt="Canto do Roxinho" />
+
+        <h3>Canto do Roxinho</h3>
+
+        <p>
+          Restaurante, Panificadora e Eventos em Manacapuru.
+          Tradição, sabor e excelência desde 1988.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navegação</h4>
+
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="cardapio.html">Cardápio</a>
+        <a href="contato.html">Contato</a>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contato</h4>
+
+        <p>📍 Av. Ribeiro Junior, 770</p>
+        <p>📞 +55 92 3361-4894</p>
+        <p>🕒 Todos os dias</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Canto do Roxinho • Todos os direitos reservados</p>
+
+      <p class="dev">
+        Desenvolvido por
+        <a href="https://dozedev.com" target="_blank">
+          dozedev.com
+        </a>
+      </p>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
