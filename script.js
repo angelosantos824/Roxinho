@@ -1,12 +1,3 @@
-const menuToggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('.nav');
-
-if(menuToggle){
-  menuToggle.addEventListener('click', () => {
-    nav.classList.toggle('open');
-  });
-}
-
 /* ==========================================
    REVEAL FIXO
 ========================================== */
@@ -66,3 +57,30 @@ if(inputFoto){
   });
 
 }
+
+/* ==========================================
+   MENU MOBILE
+========================================== */
+
+const menuToggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav');
+
+if(menuToggle){
+
+  menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
+
+}
+
+/* FECHAR MENU AO CLICAR */
+
+document.querySelectorAll('.nav a').forEach(link => {
+
+  link.addEventListener('click', () => {
+
+    nav.classList.remove('open');
+
+  });
+
+});
